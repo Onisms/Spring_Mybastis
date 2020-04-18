@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--Mybatis的全局配置文件-->
+<configuration>
+    <typeAliases>
+        <package name="com.galaxy.bean"/>
+    </typeAliases>
+<!--注册mapper文件，将数据库和实体列连接起来-->
+    <mappers>
+        <package name="com.galaxy.dao"/>
+    </mappers>
+</configuration>
